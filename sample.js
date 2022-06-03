@@ -29,3 +29,12 @@ const myNewArrayFind = myArrayFind.find((num) => {
   return num === 3;
 });
 console.log(myNewArrayFind);
+
+//reduce.Array
+const myArrayReduce = [1, 2, 3, 4, 5];
+
+const myNewArrayReduce = myArrayReduce.reduce((accumulator, currentElement) => {
+  return accumulator + currentElement;
+}, 0);
+
+console.log(myNewArrayReduce);
