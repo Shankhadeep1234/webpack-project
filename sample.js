@@ -15,3 +15,17 @@ const myNewArrayFilter = myArrayFilter.filter((num) => {
 });
 
 console.log(myNewArrayFilter);
+
+//includes.Array
+const myArrayIncludes = [1, 2, 3, 4, 5, 6];
+
+const myNewArrayIncludes = myArrayIncludes.includes(3);
+console.log(myNewArrayIncludes);
+
+//find.Array
+const myArrayFind = [1, 2, 3, 4, 5];
+
+const myNewArrayFind = myArrayFind.find((num) => {
+  return num === 3;
+});
+console.log(myNewArrayFind);
